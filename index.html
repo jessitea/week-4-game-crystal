@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Game</title>
+	
+	<!-- Link to CSS stylesheets -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	
+
+</head>
+<body>
+	
+	<!-- Title -->
+	<header>
+	Crystal Game
+	</header>
+
+	<div class="container">
+		
+		<div class="row">
+			<div class="col-md-1"></div>
+
+			<div class="col-md-10 instructionspanel">
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Instructions</h3>
+				  </div>
+				  <div class="panel-body instructions">
+				    <p>There will be four crystals displayed as buttons on the page.</p>
+
+			   		<p>The player will be shown a random number at the start of the game.</p>
+
+			   		<p>When the player clicks a crystal, it will add a specific amount of points to the "Total Number". </p>
+
+			     	<p>The game will hide this amount of points until the player clicks a crystal.</p>	
+
+			     	<p>Each time the player clicks a crystal, the "Total Number" will be updated.</p>
+
+			  		<p>The player wins if the total score matches the random number from the beginning of the game.</p>
+
+			   		<p>The player loses if their score goes above the random number.</p>
+
+			   		<p>The game restarts whenever the player wins or loses.</p>
+
+				  </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+
+			<div class="col-md-1"></div>
+
+			<!-- Where Crystals Appear -->
+			<div class="col-md-10 crystalarea">
+				<div class="row">
+					<div class="col-md-12 crystals">Crystals<br></div>
+				</div>
+			</div>
+			
+				
+			
+			<div class="col-md-1"></div>	
+		</div>
+		
+		<!-- Random Number Titles -->
+
+		<div class="row">
+
+			<div class="col-md-1"></div>
+
+				<div class="col-md-5">
+				
+					<div class="sectiontitle">Random Number<br></div>
+
+				</div>
+
+				<div class="col-md-5">
+				
+					<div class="yourtitle">Total Number<br></div>
+
+				</div>
+
+			</div>
+
+		<div class="row">
+
+		<!-- Where Random Number Appears -->
+
+			<div class="col-md-1"></div>
+
+				<div class="col-md-5 randnumber"></div>
+				
+				<div class="col-md-5 yournumber"></div>
+
+			<div class="col-md-1"></div>
+
+		</div>
+
+
+		<!-- Where Score Appears -->
+		<div class="row">
+			<div class="col-md-5"></div>
+				<div class="col-md-2">
+
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+				    <h3 class="panel-title">Score</h3>
+				  </div>
+				  <div class="panel-body score">
+
+
+				  </div>
+				</div>
+			</div>
+					
+				</div>
+			<div class="col-md-5"></div>
+
+			
+
+	</div>
+
+</body>
+
+<!-- Link to JQuery -->
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+
+<!-- Link to Javascript file -->
+<script src="assets/javascript/game.js"></script>
+</html>

@@ -1,0 +1,102 @@
+
+body {
+
+	background-image: url("../images/gemstoneback.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+header {
+
+	
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 40px;
+	width: 40%;
+	margin: 0 auto;
+	color: black;
+	text-shadow: 0px 2px 3px;
+
+}
+
+
+
+div.crystals{
+
+	border-style: dashed;
+	border-width: 1px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: white;
+	background-color: rgba(181,185,194,0.7);
+	font-weight: bold;
+	font-size: 25px;
+
+
+}
+
+div.randnumber {
+
+	font-family: 'Lato', sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+
+div.yournumber {
+
+	font-family: 'Lato', sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+}
+
+img {
+
+	height: 200px;
+	padding: 30px;
+}
+
+div.sectiontitle {
+
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+div.yourtitle {
+
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+div.scorebox {
+
+	padding-bottom: 0px;
+	margin-bottom: 250px;
+	height: 150px;
+}
+
+
+
+
+
+
