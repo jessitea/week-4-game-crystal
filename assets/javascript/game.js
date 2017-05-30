@@ -90,7 +90,14 @@ function reset() {
 
 	crystalNumber = getRandomInt(1,12);
 	crystalNumberOptions = [getRandomInt(1,12), getRandomInt(1,12), getRandomInt(1,12), getRandomInt(1,12)];
+	
 	$('.score').html('<p>Wins: ' + wins + '</p>' + '<p>Losses: ' + losses + '</p>');
+
+	$.each($('.crystal-pic'), function(i){
+    	$(this).attr('data-crystalnumber', crystalNumberOptions[i])
+  	})
+
+  	// console.log(crystalNumberOptions);
 	
 	
 }
